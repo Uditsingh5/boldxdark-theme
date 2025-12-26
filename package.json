@@ -1,0 +1,63 @@
+{
+  "name": "boldxdark-theme",
+  "displayName": "BØLD//DARK",
+  "description": "A bold dark theme with striking blues and powerful purples - where darkness meets intensity",
+  "version": "1.0.0",
+  "publisher": "Uditsingh5",
+  "author": {
+    "name": "Udit Singh"
+  },
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "dark",
+    "theme",
+    "bold",
+    "striking",
+    "intense",
+    "blue",
+    "purple",
+    "powerful",
+    "coding",
+    "development",
+    "modern"
+  ],
+  "galleryBanner": {
+    "color": "#111111",
+    "theme": "dark"
+  },
+  "icon": "assets/icon.png",
+  "homepage": "https://github.com/Uditsingh5/boldxdark-theme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Uditsingh5/boldxdark-theme.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Uditsingh5/boldxdark-theme/issues"
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "echo 'No compilation needed for theme'",
+    "watch": "echo 'No watch needed for theme'",
+    "package": "vsce package",
+    "publish": "vsce publish"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "BØLD//DARK",
+        "uiTheme": "vs-dark",
+        "path": "./themes/boldxdark-theme.json"
+      }
+    ]
+  },
+  "devDependencies": {
+    "@vscode/vsce": "^2.22.0"
+  }
+}
+  
